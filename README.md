@@ -22,5 +22,4 @@ Here are the current list-types available:
 
 License
 -------
-
-[![license]https://img.shields.io/static/v1?label=<LABEL>&message=<MESSAGE>&color=<COLOR>
+[![license](https://img.shields.io/badge/license-MIT-blue)]()
