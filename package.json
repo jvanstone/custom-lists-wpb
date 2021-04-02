@@ -1,0 +1,17 @@
+{
+  "name": "custom-list",
+  "version": "1.0.0",
+  "description": "a gutenburg block extension of lists",
+  "main": "customlists.php",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "wordpress",
+    "gutenburg",
+    "blocks",
+    "lists"
+  ],
+  "author": "Jason Vanstone <jason@vanstoneonline.com>",
+  "license": "ISC"
+}

@@ -1,0 +1,83 @@
+/* Bullet Reset */
+.editor-styles-wrapper ul {
+    list-style-type: none !important;
+}
+
+
+.editor-styles-wrapper ul.is-style {
+	list-style-type: disc !important;
+}
+
+/*  1) Checkmark Lists  ****/
+
+ul.is-style-checkmark-list {
+    margin: 0 auto;
+    padding: 0;
+    list-style: none;
+    text-align: left;
+}
+
+ul.is-style-checkmark-list li {  padding-left: 1rem; }
+	
+ul.is-style-checkmark-list li:before {
+    margin: 0 2px;
+    padding: 10px;
+    content: '✓';
+    color: #8475AC;
+}
+
+/*  2) Big Box Lists  ****/
+ul.is-style-box {
+    display: flex;
+    margin: 10px auto;
+    padding: 0;
+    flex-flow: row wrap;
+    align-items: center;
+    
+    justify-content: space-evenly;
+    width: 90%;
+    list-style-type: none;
+}
+    
+ul.is-style-box	li {
+	margin: 1rem; 
+	padding: 1rem;
+	min-width: 12rem;
+	flex-basis: 10rem;
+	min-height: 5rem;
+	height: auto;
+	border: 1px solid #000;
+	text-align: center;
+	box-shadow: 2px 5px #888888;
+	line-height: 2;
+}
+
+/*  3) Small Box Lists  ****/
+ul.is-style-smallbox-open { 
+    margin: 1rem;
+    width: 95%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+	list-style: none;
+}
+
+ul.is-style-smallbox-open li {
+	margin: 1rem;
+	padding-left: 1rem;
+	width: 15rem;
+	height: 2rem;
+
+	border-bottom: solid 1px #000;
+	box-shadow: 2px 5px #888888;
+	position: relative;
+}
+
+ul.is-style-smallbox-open li::after {
+	width: 0;
+	height: 0;
+
+	position: absolute;        
+	top: 0px;
+	right: 50px;
+}
