@@ -1,8 +1,8 @@
 # Custom-Lists-WPB | A WordPress Blocks Core Extension
 
-[![release](https://img.shields.io/badge/release-v0.0-red.svg?style=flat-square)]()
+[![release](https://img.shields.io/badge/release-v1.0-red.svg?style=flat-square)]()
 
-<p>This is an extension for the WordPress Gutenburb blocks. This expands on the core functionailty of the WordPress list block and adds unique list outputs.</p>
+<p>This is an extension for the WordPress Gutenberg blocks. This expands on the core functionailty of the WordPress list block and adds unique list outputs.</p>
 
 Development
 -----------
