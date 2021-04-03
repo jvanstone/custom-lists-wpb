@@ -28,6 +28,6 @@ add_action( 'enqueue_block_editor_assets', 'customlist_enqueue' );
  *
  */
 function customlist_stylesheet() {
-	wp_enqueue_style( 'customlist-style', plugins_url( 'style.css', __FILE__ ), false );
+	wp_enqueue_style( 'customlists-style', plugins_url( 'style.css', __FILE__ ), false );
 }
 add_action( 'enqueue_block_assets', 'customlist_stylesheet' );

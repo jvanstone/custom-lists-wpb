@@ -3,23 +3,22 @@
     list-style-type: none !important;
 }
 
-
 .editor-styles-wrapper ul.is-style {
 	list-style-type: disc !important;
 }
 
 /*  1) Checkmark Lists  ****/
 
-ul.is-style-checkmark-list {
+ul.is-style-checkmark {
     margin: 0 auto;
     padding: 0;
     list-style: none;
     text-align: left;
 }
 
-ul.is-style-checkmark-list li {  padding-left: 1rem; }
+ul.is-style-checkmark li {  padding-left: 1rem; }
 	
-ul.is-style-checkmark-list li:before {
+ul.is-style-checkmark li:before {
     margin: 0 2px;
     padding: 10px;
     content: '✓';
