@@ -1,8 +1,12 @@
 <?php
 /**
- * Plugin Name: Custom Lists
- * Author:      Jason Vanstone <jason@vanstoneonline.com>
- *
+ * Plugin URI: https://github.com/ahmadawais/create-guten-block/
+ * Description: checkmark — is a Gutenberg plugin created via create-guten-block.
+ * Author: mrahmadawais, maedahbatool
+ * Author URI: https://AhmadAwais.com/
+ * Version: 1.0.0
+ * License: GPL2+
+ * License URI: https://www.gnu.org/licenses/gpl-2.0.txt
  */
 
 /**
@@ -10,7 +14,7 @@
  *
  */
 function customlist_enqueue() {
-	wp_enqueue_script( 'checkmark-script',
+	wp_enqueue_script( 'customlists-script',
 		plugins_url( 'customlists.js', __FILE__ ),
 		array( 'wp-blocks' ),
 		false
