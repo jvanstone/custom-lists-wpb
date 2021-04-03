@@ -1,9 +1,10 @@
 <?php
 /**
- * Plugin URI: https://github.com/ahmadawais/create-guten-block/
- * Description: checkmark — is a Gutenberg plugin created via create-guten-block.
- * Author: mrahmadawais, maedahbatool
- * Author URI: https://AhmadAwais.com/
+ * Plugin Name: Custom Lists Block
+ * Plugin URI: https://github.com/jvanstone/custom-lists-wpb
+ * Description: This is an extension for the WordPress Gutenberg blocks. This expands on the core functionailty of the WordPress list block and adds unique list outputs.
+ * Author: vanstoneonline
+ * Author URI: https://vanstoneonline.com/
  * Version: 1.0.0
  * License: GPL2+
  * License URI: https://www.gnu.org/licenses/gpl-2.0.txt
