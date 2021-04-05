@@ -1,4 +1,9 @@
 wp.blocks.registerBlockStyle( 'core/list', {
+    name: 'disc',
+    label: 'Disc',
+}
+),
+wp.blocks.registerBlockStyle('core/list', {
     name: 'checkmark',
     label: 'Checkmark',
 }
