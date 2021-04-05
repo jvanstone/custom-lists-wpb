@@ -3,7 +3,7 @@
 
 [![release](https://img.shields.io/badge/release-v1.0-red.svg?style=flat-square)]()
 
-<p>This is an extension for the WordPress Gutenberg blocks. This expands on the core functionailty of the WordPress list block and adds unique list outputs. The stylesheet uses Flexbox for multi-device compatability.</p>
+<p>This is an extension for the WordPress Gutenberg blocks. This expands on the core functionality of the WordPress list block and adds unique list outputs. The style sheet uses Flex-box for multi-device compatibility./p>
 
 Development
 -----------
