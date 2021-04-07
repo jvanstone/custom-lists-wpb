@@ -23,11 +23,19 @@ Features
 
 Here are the current list-types available:
 - Disc (Default)
+- Square
+- Circle
 - Checkmark
 - Box
 - Small Box Open
 
 ...want more? let's add. Connect with me to make more options. 
+
+Version
+--------
+
+v 1.2 
+added circle and square to the options.
 
 License
 -------
