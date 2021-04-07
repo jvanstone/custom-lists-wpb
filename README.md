@@ -22,7 +22,7 @@ Features
 --------
 
 Here are the current list-types available:
-- Disc
+- Disc (Default)
 - Checkmark
 - Box
 - Small Box Open
