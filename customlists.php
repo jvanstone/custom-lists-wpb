@@ -18,7 +18,7 @@ function customlist_enqueue() {
 	wp_enqueue_script( 'customlists-script',
 		plugins_url( 'customlists.js', __FILE__ ),
 		array( 'wp-blocks' ),
-		false
+		true
 	);
 }
 add_action( 'enqueue_block_editor_assets', 'customlist_enqueue' );

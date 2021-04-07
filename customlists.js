@@ -1,20 +1,24 @@
-wp.blocks.registerBlockStyle( 'core/list', {
-    name: 'disc',
-    label: 'Disc',
-}
-),
+wp.domReady( () => {
+	wp.blocks.unregisterBlockStyle(
+		'core/list',
+		[ 'default' ]
+	);
+} );
 wp.blocks.registerBlockStyle('core/list', {
+    name: 'disc',
+	label: 'Disc',
+	isDefault: true,
+	},
+	{
     name: 'checkmark',
     label: 'Checkmark',
-}
-),
-wp.blocks.registerBlockStyle( 'core/list', {
+	},
+	{
     name: 'smallbox-open',
     label: 'Small Box Open',
-}
-),
-wp.blocks.registerBlockStyle('core/list', {
+	},
+	{
 	name: 'box',
 	label: 'Box',
-}
+	}
 );
