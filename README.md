@@ -1,7 +1,7 @@
 ![Screen Shot 2021-04-03 at 13 38 43](https://user-images.githubusercontent.com/72988205/113487407-feb88980-9485-11eb-9350-d5de8a5de99d.png)
 # Custom-Lists-WPB | A WordPress Blocks Core Extension
 
-[![release](https://img.shields.io/badge/release-v1.0-red.svg?style=flat-square)]()
+[![release](https://img.shields.io/badge/release-v1.2-red.svg?style=flat-square)]()
 
 <p>This is an extension for the WordPress Gutenberg blocks. This expands on the core functionality of the WordPress list block and adds unique list outputs. The style sheet uses Flex-box for multi-device compatibility./p>
 
