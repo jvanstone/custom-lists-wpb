@@ -5,7 +5,7 @@
  * Description: This is an extension for the WordPress Gutenberg blocks. This expands on the core functionailty of the WordPress list block and adds unique list outputs.
  * Author: vanstoneonline
  * Author URI: https://vanstoneonline.com/
- * Version: 1.0.0
+ * Version: 1.2.0
  * License: GPL2+
  * License URI: https://www.gnu.org/licenses/gpl-2.0.txt
  */
